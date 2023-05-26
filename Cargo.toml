@@ -1,0 +1,19 @@
+[package]
+name = "zonemaster"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.2"
+deadpool-postgres = "0.10.5"
+dotenv = "0.15.0"
+indicatif = { version = "0.17.3", features = ["tokio"] }
+num_cpus = "1.15.0"
+rand = "0.8.5"
+reqwest = { version = "0.11" }
+rusqlite = "0.28.0"
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7.7"
+tokio-rusqlite = "0.3.0"
